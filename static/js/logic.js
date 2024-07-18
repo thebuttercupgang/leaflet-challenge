@@ -9,12 +9,12 @@ function markerSize(mag) {
 // Create function for marker color based on depth
     // colors were chosen based on a randomly generated gradient palettte
 function markerColor(depth) {
-    if (depth > 90 ) return "#7400B8";
-    else if (depth > 70 ) return "#5E60CE";
-    else if (depth > 50 ) return "#4EA8DE";
-    else if (depth > 30 ) return "#56CFE1";
-    else if (depth > 10) return "#72EFDD";
-    else return "#80FFDB";
+    if (depth > 90 ) return "#5C0201";
+    else if (depth > 70 ) return "#BF1304";
+    else if (depth > 50 ) return "#F28705";
+    else if (depth > 30 ) return "#F2BE22";
+    else if (depth > 10) return "#FEEB2D";
+    else return "#EAFF00";
 }
 
 // function that styles the markers using the conditionals above
